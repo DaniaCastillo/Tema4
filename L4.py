@@ -1,7 +1,5 @@
 # Solución del Laboratorio 4
 
-# Los parámetros T, t_final y N son elegidos arbitrariamente
-
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
@@ -19,6 +17,7 @@ print("La constante omega toma el valor de", w)
 z_constante = (0 + np.pi/2)/2
 print("La constante cita toma el valor de", z_constante )
 
+# Los parámetros T, t_final y N son elegidos arbitrariamente
 # Creación del vector de tiempo
 T = 100			# número de elementos
 t_final = 10	# tiempo en segundos
